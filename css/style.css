@@ -12,13 +12,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://airwallpaper.com/wp-content/uploads/wall003/The-best-Calculator-Background-620x396.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .claculator{
-    background-color: lightskyblue;
+    background-color: rgb(180, 200, 224);
     padding: 20px 32px 48px 32px;
     border-radius: 30px;
-    box-shadow: inset 5px 5px 12px 12px skyblue,
+    box-shadow: inset 5px 5px 12px 12px rgb(182, 201, 221),
                       5px 5px 12px black;
     display: grid;
     grid-template-columns: repeat(4,68px);                  
@@ -32,7 +35,7 @@ input{
     box-shadow: inset -5px -5px 12px #ffffff,
                       5px 5px 12px black;
     border: none;                  
-    border-radius: 30px;
+    border-radius: 35px;
     color: gray;
     font-size: 50px;
     text-align: end;
@@ -43,10 +46,11 @@ input{
 }
 
 button{
-    height: 48px;
-    width: 48px;
-    background-color: lightseagreen;
-    box-shadow: inset -5px -5px 12px #ffffff,
+    height: 52px;
+    width: 52px;
+    color: whitesmoke;
+    background-color: rgb(50, 50, 50);
+    box-shadow: inset -5px -5px 12px rgb(115, 115, 115),
                       5px 5px 12px black;
     border: none;
     border-radius: 50%;
@@ -54,3 +58,8 @@ button{
     font-size: 20px;
     font-weight: 700;
 }
+
+button:hover {
+    background-color: rgb(75, 75, 75);
+    font-size: 21px;
+  }
