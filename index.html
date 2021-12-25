@@ -12,8 +12,8 @@
 <body>
     <div class="container">
         <div class="claculator">
-            <input type="text" placeholder="0">
-            <button onclick="clear()">AC</button>
+            <input type="text" placeholder="0" id="output-screen">
+            <button onclick="Clear()">AC</button>
             <button onclick="del()">DEL</button>
             <button onclick="display('%')">%</button>
             <button onclick="display('/')">/</button>
@@ -29,11 +29,13 @@
             <button onclick="display('2')">2</button>
             <button onclick="display('3')">3</button>
             <button onclick="display('+')">+</button>
-            <button onclick="display('.')">.</button>
             <button onclick="display('0')">0</button>
-            <button class="equal" onclick="calculate()">=</button>
+            <button onclick="display('00')">00</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="Calculate()">=</button>
         </div>
     </div>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
